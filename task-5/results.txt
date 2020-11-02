@@ -1,0 +1,32 @@
+http://0.0.0.0:3080/sample-1
+
+[
+    {
+        "id": 1,
+        "value": "helloworld"
+    }
+]
+
+http://0.0.0.0:3080/sample-2
+
+[
+    {
+        "id": 1,
+        "value": "some comment"
+    }
+]
+
+http://0.0.0.0:3080/total
+
+{
+    "name": "docker"
+}
+
+http://0.0.0.0:3000
+
+<!DOCTYPE html>
+<html lang="en">
+
+<h1>
+	 succ
+</h1>

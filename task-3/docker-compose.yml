@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  liteserv:
+    image: node:latest
+    working_dir: /lite_server
+    volumes: 
+    - ./:/lite_server
+    ports:
+    - 8000:3000
+    command: bash script.sh
